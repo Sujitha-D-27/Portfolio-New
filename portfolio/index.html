@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <nav class="flex justify-between items-center p-4 bg-gradient-to-r from-purple-400 to-indigo-700 shadow-lg text-white">
+      <h1 class="text-4xl font-semibold">Welcome to my portfolio</h1>
+      <button id="menu-toggle" class="block md:hidden text-2xl">
+        ☰
+      </button>
+      <ul id="nav-links" class=" hidden md:flex space-x-6 text-lg md:text-xl font-medium">
+        <li><a href="#home" class="hover:text-purple-400 transition-colors">Home</a></li>
+        <li ><a href="#about" class="hover:text-purple-400 transition-colors">About</a></li>
+        <li><a href="#skills" class="hover:text-purple-400 transition-colors">Skills</a></li>
+        <li ><a href="#projects" class="hover:text-purple-400 ">Project </a></li>
+        <li><a href="#Contact" class="hover:text-purple-400 transition-colors">Contact</a></li>
+      </ul>
+    </nav>
+    
+   
+
+      <div id="home" class="flex  flex-col  md:flex-row min-h-screen  bg-gradient-to-r from-purple-500 to-pink-200">
+        <div class="md:w-1/2 flex flex-col px-10 py-40 text-5xl space-y-10">
+          <h1 class="text-4xl md:text-5xl">Hi!!!</h1>
+          <h2 class="text-2xl md:text-3xl">My name is Sujitha</h2>
+          <h2 class="text-2xl md:text-3xl">I am a full-stack developer</h2>
+          <p class="text-2xl md:text-3xl">Passionate about building user-friendly and modern applications.</p>
+          <div class="flex space-x-14">
+            <a href="https://www.linkedin.com/in/sujitha-d-5a6158242/" target="_blank" class="text-white">
+              <i class="fab fa-linkedin fa-1x"></i>
+            </a>
+            <a href="https://github.com/Sujitha-D-27/" target="_blank" class="text-white">
+              <i class="fab fa-github fa-1x"></i>
+            </a>
+            <a href="mailto:sujithadevaraj27@gmail.com" class="text-white">
+              <i class="fa fa-envelope fa-1x"></i>
+            </a>
+          </div>
+        </div>
+        <div class="md:w-full md:w-1/2 flex justify-center items-center">
+          <!-- <img src="suji.jpg" class=" w-full max-w-96 h-full max-h-96 max-w-sm rounded-lg object-cover" /> -->
+          <img src="profile.jpeg" class="w-full max-w-96 max-h-96 rounded-lg object-cover" />
+
+        </div>
+      </div>
+      
+
+    <div id="about" class="min-h-screen flex flex-col md:flex-row">
+      <div class="w-1/2 bg-white flex items-center justify-center">
+        <div>
+          <img src="Techi.jpeg" class="w-full max-w-xl h-auto rounded-lg object-cover" />
+        </div>
+      </div>
+      <div class="md:w-1/2 px-10 py-44 bg-gradient-to-r from-white to-pink-400">
+        <h1 class="text-2xl md:text-3xl py-10">About Me</h1>
+        <p class="text-2xl">
+          Hi, I'm Sujitha, a passionate Full-Stack Web Developer dedicated to creating visually appealing and efficient websites. Using powerful front-end technologies like React.js, Axios, Tailwind CSS, HTML, CSS3, and JavaScript, I strive to build user-centered and responsive interfaces. My back-end skills include Node.js, Express.js, and MySQL, which enable me to create robust server-side applications and manage complex data interactions. With a balanced skill set across front and back-end development, I enjoy turning ideas into dynamic, functional, and user-friendly web applications.
+        </p>
+      </div>
+    </div>
+    
+    
+    <div id="skills" class="min-h-screen px-5 md:px-14 py-5 bg-cover bg-center " style="background-image: url('skills.jpg')" >
+        <h1 class="font-semibold text-3xl md:text-5xl  px-5 py-10 text-white" >Skills</h1>
+        <div class="grid grid-cols-2 md:grid-cols-3 text-2xl px-5 text-white">
+          <div class="flex flex-col px-10 py-10 ">
+            <i class="fab fa-html5 fa-5x"></i>
+            <h1 class="px-5">HTML</h1>
+          </div>
+          <div class="flex flex-col px-10 py-10">
+            <i class="fab fa-css3-alt fa-5x"></i>
+            <h1 class="px-5">CSS</h1>
+          </div>
+          <div class="flex flex-col px-10 py-10">
+            <i class="fab fa-js fa-5x"></i>
+            <h1>JavaScript</h1>
+          </div>
+          <div class="flex flex-col px-10 py-10">
+            <i class="fab fa-node-js fa-5x"></i>
+            <h1>Node JS</h1>
+          </div>
+          <div class="flex flex-col px-10 py-10">
+            <i class="fab fa-react fa-5x"></i>
+            <h1 class="px-5">React JS</h1>
+          </div>
+          <div class="flex flex-col px-10 py-10">
+            <i class="fab fa-github fa-5x"></i>
+            <h1 class="px-5">Git</h1>
+          </div>
+          <div class="flex flex-col px-10 py-10">
+            <i class="fa fa-database fa-5x"></i>
+            <h1 class="px-5">MySQL</h1>
+          </div>
+          <div class="flex flex-col px-10 py-10">
+            <i class="fab fa-docker fa-5x"></i>
+            <h1 class="px-5">Docker</h1>
+            </div>
+            <div class="flex flex-col px-10 py-10">
+                <i class="fas fa-server fa-5x"></i>
+                <h1 class="px-5">Express JS</h1>
+          </div>
+        </div>
+      </div>
+      <div id ="projects" class="min-h-screen px-14 py-10 bg-blue-100">
+        <h1 class="text-4xl md:text-5xl px-5 py-10">Projects</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-20 px-5">
+          
+          
+          <div class="bg-white rounded-lg shadow-lg p-5">
+            <img src="book.gif" alt="Book Bridge Project" class="w-full h-44  mb-5">
+            <h2 class="text-2xl font-semibold mb-2">Book Bridge</h2>
+            <p class="text-lg mb-4">
+              Book Bridge is an intuitive library management application designed to streamline book lending, tracking, and cataloging. Built with a user-friendly interface, it offers efficient search and filtering tools, enabling libraries to keep track of book availability and manage borrowing seamlessly.
+            </p>
+            <a href="https://library-management-lemon.vercel.app/" target="_blank" class="text-blue-600 hover:underline">View Project</a>
+          </div>
+          
+          <div class="bg-white rounded-lg shadow-lg p-5">
+            <img src="Food.png" alt="Food Aid Project" class="w-full h-48 object-cover rounded-lg mb-5">
+            <h2 class="text-2xl font-semibold mb-2">Food Aid</h2>
+            <p class="text-lg mb-4">
+              Food Aid is a platform created to address food accessibility by connecting donors and recipients. The application facilitates food donations, making it easier for people in need to find nearby food resources and ensuring surplus food is distributed effectively to reduce waste.
+            </p>
+            <a href="https://sujithafood-aid-sujitha-d-27s-projects.vercel.app/" target="_blank" class="text-blue-600 hover:underline">View Project</a>
+          </div>
+      
+        </div>
+      </div>
+      
+     
+
+      <div id="Contact" class="min-h-screen flex items-center justify-center bg-cover bg-center " style="background-image: url('th.jpeg')">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+            <h2 class="text-3xl font-semibold mb-6 text-gray-800">Contact Me</h2>
+            <form action="https://getform.io/f/axoooygb" method="POST" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-lg font-medium text-gray-600">Name</label>
+                    <input type="text" id="name" name="name" class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-lg font-medium text-gray-600">Email</label>
+                    <input type="email" id="email" name="email" class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300" required>
+                </div>
+                <div>
+                    <label for="message" class="block text-lg font-medium text-gray-600">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded-lg focus:ring focus:ring-blue-300" required></textarea>
+                </div>
+                <button type="submit" class="w-full py-2 mt-4 bg-indigo-700 text-white font-semibold rounded-lg hover:bg-purple-600 text-lg md:text-base">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+    
+  </body>
+  <script>
+    const toggleButton = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+  
+    toggleButton.addEventListener("click", () => {
+      navLinks.classList.toggle("hidden");
+    });
+  </script>
+  </body>
+  
+</html>
